@@ -27,7 +27,7 @@ header > .interface {
 }
 
 header img {
-    width: 200px; /* Define a largura da imagem do logo como 200px */
+    width: 250px; /* Define a largura da imagem do logo como 200px */
     height: auto; /* Ajusta a altura da imagem proporcionalmente à largura para manter a proporção */
     margin-top: -20px; /* Move a imagem para cima ajustando a margem superior */
 }
@@ -46,7 +46,7 @@ header nav ul {
 
 header nav ul li a {
     text-decoration: none; /* Remove a sublinha dos links */
-    color: rgb(43, 43, 43); /* Define a cor do texto dos links como um cinza escuro */
+    color: rgb(255, 0, 0); /* Define a cor do texto dos links como um cinza escuro */
     margin-right: 50px; /* Adiciona uma margem de 50px à direita dos links para espaçamento */
     list-style: none; /* Remove qualquer marcador da lista, embora já tenha sido removido por list-style-type */
     display: inline-block; /* Faz com que os links se comportem como blocos inline, permitindo padding e margens */
@@ -58,7 +58,7 @@ header a:hover {
 }
 
 .section00 {
-    background-image: url(imagem/CODIGO\ BTN.png); /* habilitamos uma imagem de fundo para a sessão*/
+    background-image: url(imagem/Logo\ Ed\ Marllyn.png); /* habilitamos uma imagem de fundo para a sessão*/
     padding: 250px;  /* tamanho/preenchimento da sessão*/
     background-repeat: no-repeat; /* repetição da imagem desabilitada*/
     background-size: cover; /* preenchimento toral da imagem será apresentada */
@@ -66,7 +66,7 @@ header a:hover {
     display: flex;  /* tornando a sessao flex e deixando os itens lado a lado */
     justify-content: center; /* Centraliza horizontalmente o conteúdo dentro do nav */
     align-items: center; /* Alinha os itens verticalmente ao centro (não se aplica aqui porque não está em um container flexível) */
-}
+    }
 
 
 
@@ -111,7 +111,7 @@ header a:hover {
 }
 
 .section03 {
-    background-image: url(imagem/Logo\ Ed\ Marllyn.png); /* Define uma imagem de fundo para a seção */
+    background-image: url(imagem/ed.jpg); /* Define uma imagem de fundo para a seção */
     padding: 50px; /* Adiciona um padding de 50px ao redor do conteúdo da seção */
     background-repeat: no-repeat; /* Impede que a imagem de fundo se repita */
     background-size: 100%; /* Faz com que a imagem de fundo cubra toda a área da seção */
@@ -170,4 +170,9 @@ font-weight: 300; /* peso da fonte*/
 footer div  ul li {
     list-style: none; /* estilo de lista desabilitado */
     margin-right: 55px; /* espaçamento entre as (li) */
+}
+
+footer a:hover {
+    color: white; /* Muda a cor dos links para branco quando o mouse passa sobre eles */
+    transform: scale(1.10); /* Aumenta o tamanho dos links em 10% quando o mouse passa sobre eles */
 }
