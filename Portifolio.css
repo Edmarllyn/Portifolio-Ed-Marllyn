@@ -1,0 +1,85 @@
+*{
+    margin: 0; /* Remove as margens de todos os elementos */
+    padding: 0; /* Remove o padding de todos os elementos */
+    box-sizing: border-box; /* Garante que padding e bordas não afetem a largura total */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Habilitando uma fonte */
+    justify-content: space-around; /* justificativa do conteudo - aqui podemos ajustar conforme nossa necessidade */
+    align-items:  center; /* alinhamento na vertical, deixando habilitada ao centro */
+}
+
+body {
+    background-color: black; /* Define a cor de fundo do corpo da página como preto */
+    height: 100vh; /* Define a altura do body como 100% da altura da tela */
+}
+
+.interface {
+    max-width: 1280px; /* Define a largura máxima da interface */
+    margin: 0 auto; /* Centraliza a interface horizontalmente */
+}
+
+header {
+    padding: 40px; /* Adiciona um padding de 40px ao header */
+}
+
+header > .interface {
+    display: flex; /* Usa flexbox para layout dos elementos filhos */
+    align-items: center; /* Alinha os itens no centro verticalmente */
+    justify-content: space-between; /* Espaça os itens igualmente com espaço entre eles */
+}
+
+header img {
+    width: 200px; /* Define a largura da imagem como 100px */
+    height: auto; /* Ajusta automaticamente a altura mantendo a proporção */
+    margin-top: -20px; /* Ajuste negativo da margem superior para mover a imagem para cima */
+}
+
+
+header > .interface {
+    display: flex; /* Usa flexbox para layout dos elementos */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: space-between; /* Espaça os elementos da logo e navegação */
+}
+
+header nav {
+    flex: 1; /* Faz com que o nav ocupe todo o espaço disponível */
+    display: flex; /* Ativa o flexbox no nav */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo do nav */
+}
+
+
+
+header nav ul{
+    list-style-type: none; /* Remove os marcadores padrão da lista */
+    display: flex; /* Alinha os itens da lista horizontalmente */
+    padding: 0;
+}
+
+header nav ul li a {
+    text-decoration: none; /* Remove a sublinha dos links dentro da lista */
+    color: rgb(43, 43, 43); /* Define a cor do texto dos links como branca */
+    margin-right: 50px; /* Adiciona uma margem à direita dos links */
+    list-style: none; /* Remove os marcadores da lista */
+    display: inline-block;
+}
+
+header a:hover {
+    color: white;
+    transform: scale(1.10);
+}
+
+
+header .Btn-Contato button  {
+    padding: 10px 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: rgb(255, 0, 0);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-right: 25px; /* Adiciona 20px de espaço à direita do botão */
+}
+
+header .Btn-Contato button:hover {
+    box-shadow: 0px 0px 25px  rgb(185, 1, 1);
+}
