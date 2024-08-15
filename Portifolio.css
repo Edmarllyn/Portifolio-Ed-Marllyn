@@ -104,7 +104,7 @@ header .Btn-Contato button:hover {
     background-position: center; /* Centraliza a imagem de fundo na seção */
     background-attachment: fixed; /* Faz com que a imagem de fundo permaneça fixa em relação à viewport */
     width: 100%; /* Define a largura da seção como 100% do elemento pai */
-    height: 99%; /* Define a altura da seção como 99% da altura do elemento pai (ajustável conforme o conteúdo) */
+    height: 130mm; /* Define a altura da seção como 99% da altura do elemento pai (ajustável conforme o conteúdo) */
 
 }
 
@@ -129,4 +129,31 @@ section h2 {
 
 section h3 {
     color: yellow; /* Define a cor do texto dos h3 dentro de qualquer seção como amarelo */
+}
+
+/* aqui habilitamos o rodape para estilização*/
+footer {
+    background-color: black; /* cor de fundo do rodape*/
+    padding: 15px; /* tamanho/preenchimento do rodape*/
+    display: flex; /* tornando a sessao flex e deixando os itens lado a lado */
+    justify-content: center; /* justificantiva do conteudo ao centro*/
+    font-weight: bold; /* peso da letra */
+    width: 100%; /* Define a largura da footer */
+    height: 100px; /* Define a altura da footer */
+}
+
+footer div ul {
+    display: flex; /* aqui tornamos nossa lista um elemento flex, com isso as letras ficaram lado a lado*/
+}
+
+footer div ul li a {
+    text-decoration: none; /* decoração de texto (sublinhado) desabilitado (none) */
+color: rgb(255, 0, 0); /*cor da letra*/
+font-family: Verdana, Geneva, Tahoma, sans-serif; /* tipo de fonte */
+font-weight: 300; /* peso da fonte*/
+}
+
+footer div  ul li {
+    list-style: none; /* estilo de lista desabilitado */
+    margin-right: 55px; /* espaçamento entre as (li) */
 }
