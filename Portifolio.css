@@ -1,85 +1,132 @@
-*{
-    margin: 0; /* Remove as margens de todos os elementos */
-    padding: 0; /* Remove o padding de todos os elementos */
-    box-sizing: border-box; /* Garante que padding e bordas não afetem a largura total */
-    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Habilitando uma fonte */
-    justify-content: space-around; /* justificativa do conteudo - aqui podemos ajustar conforme nossa necessidade */
-    align-items:  center; /* alinhamento na vertical, deixando habilitada ao centro */
+* {
+    margin: 0; /* remove as margens de todos os elementos para garantir que não haja espaçamento indesejado */
+    padding: 0; /* remove o padding de todos os elementos para evitar espaçamento interno indesejado */
+    box-sizing: border-box; /* faz com que padding e bordas sejam incluídos na largura e altura total dos elementos */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Define a fonte padrão para o texto da página */
+
 }
 
 body {
-    background-color: black; /* Define a cor de fundo do corpo da página como preto */
-    height: 100vh; /* Define a altura do body como 100% da altura da tela */
+    background-color: black; /* define a cor de fundo da página como preto */
+    height: 100vh; /* Define a altura do body como 100% da altura da viewport (tela) */
 }
 
 .interface {
-    max-width: 1280px; /* Define a largura máxima da interface */
+    max-width: 1280px; /* define a largura máxima da interface para que não fique muito larga */
     margin: 0 auto; /* Centraliza a interface horizontalmente */
 }
 
 header {
-    padding: 40px; /* Adiciona um padding de 40px ao header */
+    padding: 40px; /* Adiciona um padding de 40px ao redor do conteúdo do header */
 }
 
 header > .interface {
-    display: flex; /* Usa flexbox para layout dos elementos filhos */
-    align-items: center; /* Alinha os itens no centro verticalmente */
-    justify-content: space-between; /* Espaça os itens igualmente com espaço entre eles */
+    display: flex; /* Usa flexbox para layout dos elementos filhos do header */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    justify-content: space-between; /* Distribui os itens com espaço igual entre eles */
 }
 
 header img {
-    width: 200px; /* Define a largura da imagem como 100px */
-    height: auto; /* Ajusta automaticamente a altura mantendo a proporção */
-    margin-top: -20px; /* Ajuste negativo da margem superior para mover a imagem para cima */
-}
-
-
-header > .interface {
-    display: flex; /* Usa flexbox para layout dos elementos */
-    align-items: center; /* Centraliza verticalmente */
-    justify-content: space-between; /* Espaça os elementos da logo e navegação */
+    width: 200px; /* Define a largura da imagem do logo como 200px */
+    height: auto; /* Ajusta a altura da imagem proporcionalmente à largura para manter a proporção */
+    margin-top: -20px; /* Move a imagem para cima ajustando a margem superior */
 }
 
 header nav {
-    flex: 1; /* Faz com que o nav ocupe todo o espaço disponível */
-    display: flex; /* Ativa o flexbox no nav */
-    justify-content: center; /* Centraliza horizontalmente o conteúdo do nav */
+    flex: 1; /* Faz com que o elemento nav ocupe todo o espaço disponível no header */
+    display: flex; /* Usa flexbox para layout dentro do nav */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo dentro do nav */
 }
 
-
-
-header nav ul{
+header nav ul {
     list-style-type: none; /* Remove os marcadores padrão da lista */
     display: flex; /* Alinha os itens da lista horizontalmente */
-    padding: 0;
+    padding: 0; /* Remove o padding da lista */
 }
 
 header nav ul li a {
-    text-decoration: none; /* Remove a sublinha dos links dentro da lista */
-    color: rgb(43, 43, 43); /* Define a cor do texto dos links como branca */
-    margin-right: 50px; /* Adiciona uma margem à direita dos links */
-    list-style: none; /* Remove os marcadores da lista */
-    display: inline-block;
+    text-decoration: none; /* Remove a sublinha dos links */
+    color: rgb(43, 43, 43); /* Define a cor do texto dos links como um cinza escuro */
+    margin-right: 50px; /* Adiciona uma margem de 50px à direita dos links para espaçamento */
+    list-style: none; /* Remove qualquer marcador da lista, embora já tenha sido removido por list-style-type */
+    display: inline-block; /* Faz com que os links se comportem como blocos inline, permitindo padding e margens */
 }
 
 header a:hover {
-    color: white;
-    transform: scale(1.10);
+    color: white; /* Muda a cor dos links para branco quando o mouse passa sobre eles */
+    transform: scale(1.10); /* Aumenta o tamanho dos links em 10% quando o mouse passa sobre eles */
 }
 
-
-header .Btn-Contato button  {
-    padding: 10px 40px;
-    color: white;
-    font-size: 20px;
-    font-weight: 500;
-    background-color: rgb(255, 0, 0);
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-    margin-right: 25px; /* Adiciona 20px de espaço à direita do botão */
+header .Btn-Contato button {
+    padding: 10px 40px; /* Adiciona padding de 10px em cima e embaixo e 40px nas laterais do botão */
+    color: white; /* Define a cor do texto do botão como branco */
+    font-size: 20px; /* Define o tamanho da fonte do botão como 20px */
+    font-weight: 500; /* Define o peso da fonte do botão para 500 (semi-negrito) */
+    background-color: rgb(255, 0, 0); /* Define a cor de fundo do botão como vermelho */
+    border: 0; /* Remove a borda do botão */
+    border-radius: 30px; /* Adiciona bordas arredondadas ao botão com raio de 30px */
+    cursor: pointer; /* Muda o cursor para uma mão quando passa sobre o botão */
+    margin-right: 25px; /* Adiciona uma margem de 25px à direita do botão para espaçamento */
 }
 
 header .Btn-Contato button:hover {
-    box-shadow: 0px 0px 25px  rgb(185, 1, 1);
+    box-shadow: 0px 0px 25px rgb(185, 1, 1); /* Adiciona uma sombra ao redor do botão quando o mouse passa sobre ele */
+}
+
+.section01 {
+    color: #ffffff; /* Define a cor do texto dentro da seção 01 como branco */
+}
+
+.section02 {
+    color: #ffffff; /* Define a cor do texto dentro da seção 02 como branco */
+    margin-left: 17px; /* Adiciona uma margem de 17px à esquerda da seção */
+    font-size: 15px; /* Define o tamanho da fonte dentro da seção como 15px */
+    align-items: center; /* Alinha os itens verticalmente ao centro (não se aplica aqui porque não está em um container flexível) */
+    display: flex; /* Usa flexbox para layout dos itens dentro da seção */
+}
+
+.section02 img {
+    width: 350px; /* Define a largura da imagem dentro da seção como 200px */
+    height: 400px; /* Define a altura da imagem dentro da seção como 200px */
+    border-radius: 50%; /* Faz com que a imagem fique redonda */
+    object-fit: cover; /* Ajusta a imagem para cobrir o contêiner sem distorção */
+}
+
+.section03 {
+    color: #ffffff; /* Define a cor do texto dentro da seção 03 como branco */
+}
+
+.section03 {
+    background-image: url(imagem/Logo\ Ed\ Marllyn.png); /* Define uma imagem de fundo para a seção */
+    padding: 50px; /* Adiciona um padding de 50px ao redor do conteúdo da seção */
+    background-repeat: no-repeat; /* Impede que a imagem de fundo se repita */
+    background-size: 100%; /* Faz com que a imagem de fundo cubra toda a área da seção */
+    background-position: center; /* Centraliza a imagem de fundo na seção */
+    background-attachment: fixed; /* Faz com que a imagem de fundo permaneça fixa em relação à viewport */
+    width: 100%; /* Define a largura da seção como 100% do elemento pai */
+    height: 99%; /* Define a altura da seção como 99% da altura do elemento pai (ajustável conforme o conteúdo) */
+
+}
+
+.section03 img {
+    width: 200px; /* Define a largura da imagem */
+    height: 200px; /* Define a altura da imagem */
+    border-radius: 50%; /* Faz com que a imagem fique redonda */
+    object-fit: cover; /* Ajusta a imagem para cobrir o contêiner sem distorção */
+}
+
+section h1, .section h2, .section h3, .section p {
+    color: #333; /* Define a cor do texto para h1, h2, h3 e p dentro de qualquer seção como um cinza escuro */
+}
+
+section h1 {
+    color: rgb(250, 0, 0); /* Define a cor do texto dos h1 dentro de qualquer seção como vermelho */
+}
+
+section h2 {
+    color: rgb(111, 111, 219); /* Define a cor do texto dos h2 dentro de qualquer seção como um azul claro */
+}
+
+section h3 {
+    color: yellow; /* Define a cor do texto dos h3 dentro de qualquer seção como amarelo */
 }

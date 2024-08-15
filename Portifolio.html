@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio Ed Marllyn</title> <!-- Título da página exibido na aba do navegador -->
-    <link rel="stylesheet" href="Portifolio.css"> <!-- Vincula o arquivo CSS externo para estilização da página -->
+    <title>Portifolio Ed Marllyn</title> <!-- Título da página que aparece na aba do navegador -->
+    <link rel="stylesheet" href="Portifolio.css"> <!-- Conecta o arquivo CSS externo para aplicar estilos à página -->
 </head>
 <body>
     
     <header> 
-        <div class="interface"> <!-- interface do cabeçalho -->
-            <div class="logo"> <!-- Essa div é para o logo -->
-                <a href="#">
-                    <img src="imagem/Logo_Ed_Marllyn 2.png"Logo Ed Marllyn"> <!-- Imagem do logo -->
+        <div class="interface"> <!-- a classe "interface" pode ser usada para aplicar estilos específicos ao cabeçalho -->
+
+            <div class="logo"> <!-- a classe "logo" e usada para aplicar estilos especificos ao logo -->
+                <a href="#"> <!-- Link que envolve o logo -->
+                    <img src="imagem/Logo_Ed_Marllyn 2.png" alt="Portifolio.html"> <!-- Imagem do logo -->
                 </a>
-            </div> <!-- Fim da div da logo -->
+            </div> <!-- Fim do container do logo -->
             
-            <nav> <!-- Início da navegação -->
-                <ul>  <!-- lista não ordenada -->
-                    <li> <!-- Item de lista para links de navegação -->
+            <nav> <!-- Início da seção de navegação -->
+                <ul>  <!-- Lista não ordenada para os itens de navegação -->
+                    <li> <!-- cada item pode conter links para diferentes seções da página -->
                         <a href="">Início</a> <!-- Link para a seção "Início" -->
                         <a href="">Sobre</a> <!-- Link para a seção "Sobre" -->
                         <a href="">Projetos</a> <!-- Link para a seção "Projetos" -->
@@ -26,21 +27,46 @@
                 </ul>
             </nav>
 
-            <div class="Btn-Contato">
-                <a href="#">
-                    <Button> Contato </Button>
+            <div class="Btn-Contato"> <!-- a classe "Btn-Contato" pode ser usada para estilizar o botão -->
+                <a href=""> <!-- Link para a seção de contato. Atualmente, não leva a lugar nenhum -->
+                    <button>Contato</button> <!-- Botão que, ao ser clicado, leva para a seção de contato -->
                 </a>
-            </div> <!-- Btn contato-->
+            </div> <!-- Fim do container do botão de contato -->
 
-        </div> <!-- Fim da div da interface -->
+        </div> <!-- Fim do container do cabeçalho -->
     </header>
 
-    <main>
-        <section class="section.01">
-            <div class="interface">
+    <section class="section01"> <!-- classe "section01" pode ser usada para aplicar estilos específicos a esta seção -->
+        <h1>Ed Marllyn S.Confessor</h1>
+        <h2>Desenvolvedor de SoftWare</h2> 
+    </section>
+        
 
-            </div>
-        </section>
-    </main>
+    <section class="section02"> <!-- classe "section02" pode ser usada para aplicar estilos específicos a esta seção -->
+        <h3>Sobre Mim</h3> <!-- Subtítulo para a seção "Sobre Mim" -->
+        <p>Olá! Sou Ed Marllyn Soares Confessor, um jovem de 20 anos, brasileiro. Moro na Avenida Ançarinhas, Nº 645, São Miguel Paulista, São Paulo – SP.</p> 
+        
+        <div> <!-- Container para a foto pessoal -->
+            <img src="imagem/Edy.jpg" alt="Foto do Ed Marllyn"> 
+        </div>
+
+    </section>
+
+    <section class="section03"> <!-- seção para a formação e educação adicional -->
+        <h3>Formação</h3> <!-- Subtítulo para a seção de formação -->
+        <p>Graduação: Análise e Desenvolvimento de Sistemas / Superior – Cursando (02/2023 até 07/2025)</p> <br>
+    
+        <h3>Educação Adicional</h3>  <!-- Subtítulo para a seção de educação adicional -->
+        <ul> <!-- Lista não ordenada dos cursos e treinamentos adicionais -->
+            <li>Programação Oracle 12c - SQL Foundations (02/2022)</li>
+            <li>Programação Oracle 12c - PL/SQL 32 horas (02/2022)</li> 
+            <li>Programação Oracle 12c - Tunning e Performance 32 horas (02/2022)</li>
+            <li>Editor de Projeto Visual Gráfico (08/2022)</li> 
+            <li>Programador de Sistema (02/2024)</li> 
+            <li>Cursando Programador de Web (08/2024)</li>
+        </ul>
+        
+    </section>
+
 </body>
 </html>
