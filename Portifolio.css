@@ -46,15 +46,16 @@ header nav ul {
 
 header nav ul li a {
     text-decoration: none; /* Remove a sublinha dos links */
-    color: rgb(255, 0, 0); /* Define a cor do texto dos links como um cinza escuro */
+    color:  #ff1500; /* Define a cor do texto dos links como um cinza escuro */
     margin-right: 50px; /* Adiciona uma margem de 50px à direita dos links para espaçamento */
-    list-style: none; /* Remove qualquer marcador da lista, embora já tenha sido removido por list-style-type */
+    list-style: none; /* Remove qualquer marcador da lista*/
     display: inline-block; /* Faz com que os links se comportem como blocos inline, permitindo padding e margens */
 }
 
-header a:hover {
-    color: white; /* Muda a cor dos links para branco quando o mouse passa sobre eles */
+header nav ul li a:hover {
+    color: rgb(255, 255, 255); /* Muda a cor dos links para branco quando o mouse passa sobre eles */
     transform: scale(1.10); /* Aumenta o tamanho dos links em 10% quando o mouse passa sobre eles */
+    transition:  0.5s;
 }
 
 .section00 {
@@ -75,7 +76,7 @@ header a:hover {
     color: white; /* Define a cor do texto do botão como branco */
     font-size: 20px; /* Define o tamanho da fonte do botão como 20px */
     font-weight: 500; /* Define o peso da fonte do botão para 500 (semi-negrito) */
-    background-color: rgb(255, 0, 0); /* Define a cor de fundo do botão como vermelho */
+    background-color:#ff1500; /* Define a cor de fundo do botão como vermelho */
     border: 0; /* Remove a borda do botão */
     border-radius: 30px; /* Adiciona bordas arredondadas ao botão com raio de 30px */
     cursor: pointer; /* Muda o cursor para uma mão quando passa sobre o botão */
@@ -83,8 +84,14 @@ header a:hover {
 }
 
 .section00 button:hover {
-    box-shadow: 0px 0px 25px rgb(185, 1, 1); /* Adiciona uma sombra ao redor do botão quando o mouse passa sobre ele */
+    background-color: rgb(255, 0, 0);
+    box-shadow: 0px 0px 25px  #ff1500; /* Adiciona uma sombra ao redor do botão quando o mouse passa sobre ele */
+    transition: 0.3s;
+    color: rgb(202, 202, 202);
+
 }
+
+
 
 .section01 {
     color: #ffffff; /* Define a cor do texto dentro da seção 01 como branco */
@@ -106,6 +113,15 @@ header a:hover {
     object-fit: cover; /* Ajusta a imagem para cobrir o contêiner sem distorção */
 }
 
+/* hover permite que o elemento a qual esta trabalhando tenha alguma ação sobre o mause */
+.section02 img:hover{
+    width: 400px; /* largura da imagem */
+    transition: 1s; /* tempo a o colocar o mause sobre */
+    cursor: pointer; /* curso do mause  */
+  }
+
+
+
 .section03 {
     color: #ffffff; /* Define a cor do texto dentro da seção 03 como branco */
 }
@@ -122,6 +138,7 @@ header a:hover {
 
 }
 
+
 .section03 img {
     width: 200px; /* Define a largura da imagem */
     height: 200px; /* Define a altura da imagem */
@@ -129,16 +146,18 @@ header a:hover {
     object-fit: cover; /* Ajusta a imagem para cobrir o contêiner sem distorção */
 }
 
+
+
 section h1, .section h2, .section h3, .section p {
     color: #333; /* Define a cor do texto para h1, h2, h3 e p dentro de qualquer seção como um cinza escuro */
 }
 
 section h1 {
-    color: rgb(250, 0, 0); /* Define a cor do texto dos h1 dentro de qualquer seção como vermelho */
+    color: #ff1500; /* Define a cor do texto dos h1 dentro de qualquer seção como vermelho */
 }
 
 section h2 {
-    color: rgb(111, 111, 219); /* Define a cor do texto dos h2 dentro de qualquer seção como um azul claro */
+    color: rgb(255, 255, 255); /* Define a cor do texto dos h2 dentro de qualquer seção como um azul claro */
 }
 
 section h3 {
@@ -162,8 +181,7 @@ footer div ul {
 
 footer div ul li a {
     text-decoration: none; /* decoração de texto (sublinhado) desabilitado (none) */
-color: rgb(255, 0, 0); /*cor da letra*/
-font-family: Verdana, Geneva, Tahoma, sans-serif; /* tipo de fonte */
+color: #ff1500; /*cor da letra*/
 font-weight: 300; /* peso da fonte*/
 }
 
@@ -174,5 +192,11 @@ footer div  ul li {
 
 footer a:hover {
     color: white; /* Muda a cor dos links para branco quando o mouse passa sobre eles */
+    transform: scale(1.10); /* Aumenta o tamanho dos links em 10% quando o mouse passa sobre eles */
+}
+
+footer nav ul li a:hover {
+    color: white;
+    transition: 0.3s;
     transform: scale(1.10); /* Aumenta o tamanho dos links em 10% quando o mouse passa sobre eles */
 }
