@@ -200,3 +200,18 @@ footer nav ul li a:hover {
     transition: 0.3s;
     transform: scale(1.10); /* Aumenta o tamanho dos links em 10% quando o mouse passa sobre eles */
 }
+
+
+header i {
+    color: white;
+    font-size: 40px;
+    padding: 15px;
+    background-color: rgb(112, 112, 112);
+    border-radius: 10px;
+}
+
+header i:hover {
+    background-color: #ff1500;
+    transition: 0.5s;
+    cursor: pointer;
+}
