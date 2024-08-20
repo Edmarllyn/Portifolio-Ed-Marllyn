@@ -8,11 +8,11 @@
 
 body {
     background-color: black; /* define a cor de fundo da página como preto */
-    height: 100vh; /* Define a altura do body como 100% da altura da viewport (tela) */
+    height: 100px; /* Define a altura do body como 100% da altura da viewport (tela) */
 }
 
 .interface {
-    max-width: 1280px; /* define a largura máxima da interface para que não fique muito larga */
+    max-width: 1100px; /* define a largura máxima da interface para que não fique muito larga */
     margin: 0 auto; /* Centraliza a interface horizontalmente */
 }
 
@@ -27,7 +27,7 @@ header > .interface {
 }
 
 header img {
-    width: 250px; /* Define a largura da imagem do logo como 200px */
+    width: 150px; /* Define a largura da imagem do logo como 200px */
     height: auto; /* Ajusta a altura da imagem proporcionalmente à largura para manter a proporção */
     margin-top: -20px; /* Move a imagem para cima ajustando a margem superior */
 }
@@ -202,7 +202,69 @@ footer nav ul li a:hover {
 }
 
 
-header i {
+
+
+
+
+
+
+
+/* tela de contato*/
+
+
+.section-cotado01 {
+    background-image: url(imagem/tela\ 2.jpg) ;
+    padding: 250px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-cotado01 p {
+    font-size: 40px;
+    color: white;
+    font-weight: 800;
+    background-color: #6d6d6d8e;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section-cotado01 span {
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    
+
+}
+
+.section-cotado02 {
+ padding: 250px;
+ background-color: white;
+ margin-left: 17px; /* Adiciona uma margem de 17px à esquerda da seção */
+ font-size: 15px; /* Define o tamanho da fonte dentro da seção como 15px */
+ align-items: center; /* Alinha os itens verticalmente ao centro (não se aplica aqui porque não está em um container flexível) */
+ display: flex; /* Usa flex para layout dos itens dentro da seção */
+ justify-content: center;
+}
+
+.section-cotado03{
+    padding: 250px;
+ background-color: rgb(104, 104, 104);
+ margin-left: 17px; /* Adiciona uma margem de 17px à esquerda da seção */
+ font-size: 15px; /* Define o tamanho da fonte dentro da seção como 15px */
+ align-items: center; /* Alinha os itens verticalmente ao centro (não se aplica aqui porque não está em um container flexível) */
+ display: flex; /* Usa flex para layout dos itens dentro da seção */
+ justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+footer i {
     color: white;
     font-size: 40px;
     padding: 15px;
@@ -210,8 +272,12 @@ header i {
     border-radius: 10px;
 }
 
-header i:hover {
+footer i:hover {
     background-color: #ff1500;
     transition: 0.5s;
     cursor: pointer;
+    align-items: center;
+
 }
+
+
