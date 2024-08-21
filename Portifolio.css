@@ -29,11 +29,11 @@ header > .interface {
 header img {
     width: 150px; /* Define a largura da imagem do logo como 200px */
     height: auto; /* Ajusta a altura da imagem proporcionalmente à largura para manter a proporção */
-    margin-top: -20px; /* Move a imagem para cima ajustando a margem superior */
+    margin-top: -10px; /* Move a imagem para cima ajustando a margem superior */
 }
 
 header nav {
-    flex: 1; /* Faz com que o elemento nav ocupe todo o espaço disponível no header */
+    flex: 15px; /* Faz com que o elemento nav ocupe todo o espaço disponível no header */
     display: flex; /* Usa flexbox para layout dentro do nav */
     justify-content: center; /* Centraliza horizontalmente o conteúdo dentro do nav */
 }
@@ -55,7 +55,7 @@ header nav ul li a {
 header nav ul li a:hover {
     color: rgb(255, 255, 255); /* Muda a cor dos links para branco quando o mouse passa sobre eles */
     transform: scale(1.10); /* Aumenta o tamanho dos links em 10% quando o mouse passa sobre eles */
-    transition:  0.5s;
+    transition:  0.5s; /* tempo de transição ao colocar o mause sobre a Ancora */
 }
 
 .section00 {
@@ -84,31 +84,31 @@ header nav ul li a:hover {
 }
 
 .section00 button:hover {
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0); /* Definir cor de fundo do botão ao passar o mause sobre o button */
     box-shadow: 0px 0px 25px  #ff1500; /* Adiciona uma sombra ao redor do botão quando o mouse passa sobre ele */
-    transition: 0.3s;
-    color: rgb(202, 202, 202);
+    transition: 0.3s; /* tempo de transição ao colocar o mause sobre o botão */
+    color: rgb(202, 202, 202); /* Define a cor do texto dentro do button */
 
 }
 
 
 
 .section01 {
-    color: #ffffff; /* Define a cor do texto dentro da seção 01 como branco */
+    color: #ffffff; /* Define a cor do texto dentro da sessão 01 como branco */
 }
 
 .section02 {
-    color: #ffffff; /* Define a cor do texto dentro da seção 02 como branco */
-    margin-left: 17px; /* Adiciona uma margem de 17px à esquerda da seção */
-    font-size: 15px; /* Define o tamanho da fonte dentro da seção como 15px */
+    color: #ffffff; /* Define a cor do texto dentro da sessão 02 como branco */
+    margin-left: 17px; /* Adiciona uma margem de 17px à esquerda da sessão */
+    font-size: 15px; /* Define o tamanho da fonte dentro da sessão como 15px */
     align-items: center; /* Alinha os itens verticalmente ao centro (não se aplica aqui porque não está em um container flexível) */
-    display: flex; /* Usa flex para layout dos itens dentro da seção */
-    justify-content: center;
+    display: flex; /* Usa flex para layout dos itens dentro da sessão */
+    justify-content: center;  /* justificantiva do conteudo ao centro*/
 }
 
 .section02 img {
-    width: 350px; /* Define a largura da imagem dentro da seção como 200px */
-    height: 400px; /* Define a altura da imagem dentro da seção como 200px */
+    width: 350px; /* Define a largura da imagem dentro da sessão como 200px */
+    height: 400px; /* Define a altura da imagem dentro da sessão como 200px */
     border-radius: 50%; /* Faz com que a imagem fique redonda */
     object-fit: cover; /* Ajusta a imagem para cobrir o contêiner sem distorção */
 }
@@ -116,25 +116,25 @@ header nav ul li a:hover {
 /* hover permite que o elemento a qual esta trabalhando tenha alguma ação sobre o mause */
 .section02 img:hover{
     width: 400px; /* largura da imagem */
-    transition: 1s; /* tempo a o colocar o mause sobre */
+    transition: 1s; /* tempo a o colocar o mause sobre a imagem */
     cursor: pointer; /* curso do mause  */
   }
 
 
 
 .section03 {
-    color: #ffffff; /* Define a cor do texto dentro da seção 03 como branco */
+    color: #ffffff; /* Define a cor do texto dentro da sesessãoção 03 como branco */
 }
 
 .section03 {
-    background-image: url(imagem/ed.jpg); /* Define uma imagem de fundo para a seção */
-    padding: 50px; /* Adiciona um padding de 50px ao redor do conteúdo da seção */
+    background-image: url(imagem/ed.jpg); /* Define uma imagem de fundo para a sessão */
+    padding: 50px; /* Adiciona um padding de 50px ao redor do conteúdo da sessão */
     background-repeat: no-repeat; /* Impede que a imagem de fundo se repita */
-    background-size: 100%; /* Faz com que a imagem de fundo cubra toda a área da seção */
-    background-position: center; /* Centraliza a imagem de fundo na seção */
+    background-size: 100%; /* Faz com que a imagem de fundo cubra toda a área da sessão */
+    background-position: center; /* Centraliza a imagem de fundo na sessão */
     background-attachment: fixed; /* Faz com que a imagem de fundo permaneça fixa em relação à viewport */
-    width: 100%; /* Define a largura da seção como 100% do elemento pai */
-    height: 130mm; /* Define a altura da seção como 99% da altura do elemento pai (ajustável conforme o conteúdo) */
+    width: 100%; /* Define a largura da sessão como 100% do elemento pai */
+    height: 130mm; /* Define a altura da sessão como 99% da altura do elemento pai (ajustável conforme o conteúdo) */
 
 }
 
@@ -149,19 +149,19 @@ header nav ul li a:hover {
 
 
 section h1, .section h2, .section h3, .section p {
-    color: #333; /* Define a cor do texto para h1, h2, h3 e p dentro de qualquer seção como um cinza escuro */
+    color: #333; /* Define a cor do texto para h1, h2, h3 e p dentro de qualquer sessão como um cinza escuro */
 }
 
 section h1 {
-    color: #ff1500; /* Define a cor do texto dos h1 dentro de qualquer seção como vermelho */
+    color: #ff1500; /* Define a cor do texto dos h1 dentro de qualquer sessão como vermelho */
 }
 
 section h2 {
-    color: rgb(255, 255, 255); /* Define a cor do texto dos h2 dentro de qualquer seção como um azul claro */
+    color: rgb(255, 255, 255); /* Define a cor do texto dos h2 dentro de qualquer sessão como um azul claro */
 }
 
 section h3 {
-    color: yellow; /* Define a cor do texto dos h3 dentro de qualquer seção como amarelo */
+    color: yellow; /* Define a cor do texto dos h3 dentro de qualquer sessão como amarelo */
 }
 
 /* aqui habilitamos o rodape para estilização*/
@@ -174,7 +174,7 @@ footer {
     width: 100%; /* Define a largura da footer */
     height: 100px; /* Define a altura da footer */
 }
-
+ 
 footer div ul {
     display: flex; /* aqui tornamos nossa lista um elemento flex, com isso as letras ficaram lado a lado*/
 }
@@ -196,8 +196,8 @@ footer a:hover {
 }
 
 footer nav ul li a:hover {
-    color: white;
-    transition: 0.3s;
+    color: white; /* Cor da Letra Da Ancora*/
+    transition: 0.3s; /* tempo de transição ao colocar o mause sobre a Ancora */
     transform: scale(1.10); /* Aumenta o tamanho dos links em 10% quando o mouse passa sobre eles */
 }
 
@@ -213,73 +213,197 @@ footer nav ul li a:hover {
 
 
 .section-cotado01 {
-    background-image: url(imagem/tela\ 2.jpg) ;
-    padding: 250px;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(imagem/tela\ 2.jpg) ; /* imagem de fundo da sessão */
+    padding: 250px; /* Adiciona um padding de 250px ao redor do conteúdo da sessão */
+    background-repeat: no-repeat; /* Impede que a imagem de fundo se repita */
+    background-size: cover; /* Faz com que a imagem de fundo cubra toda a área da sessão */
+    background-position: bottom ; /* Centraliza a imagem de fundo na sessão */
 }
 
 .section-cotado01 p {
-    font-size: 40px;
-    color: white;
-    font-weight: 800;
-    background-color: #6d6d6d8e;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px; /* Tamanho Da Fonte */
+    color: white; /* Cor da letra da sessão */
+    font-weight: 800; /* peso da letra */
+    background-color: #6d6d6d8e; /* Cor de fundo do paragrafo */
+    font-family: Georgia, 'Times New Roman', Times, serif;  /* fonte usada no texto do paragrafo */
 }
 
 .section-cotado01 span {
-    color: rgb(255, 0, 0);
-    font-weight: bold;
+    color: rgb(255, 0, 0); /* Cor da letra do span */
+    font-weight: bold; /* peso da letra */
     
 
 }
 
 .section-cotado02 {
-    padding: 250px;
-    background-color: white;
-    margin-left: 17px; /* Adiciona uma margem de 17px à esquerda da seção */
-    font-size: 15px; /* Define o tamanho da fonte dentro da seção como 15px */
+    padding: 250px;  /* Adiciona um padding de 250px ao redor do conteúdo da sessão */
+    background-color: rgb(255, 255, 255); /* Cor de fundo da sessão*/
+    margin-left: 17px; /* Adiciona uma margem de 17px à esquerda da seçsessãoão */
+    font-size: 15px; /* Define o tamanho da fonte dentro da sessão como 15px */
     align-items: center; /* Alinha os itens verticalmente ao centro (não se aplica aqui porque não está em um container flexível) */
-    display: flex; /* Usa flex para layout dos itens dentro da seção */
-    justify-content: center;
 }
+   
 
 .section-cotado03{
     
-    padding: 250px;
-    background-color: rgb(104, 104, 104);
-    margin-left: 17px; /* Adiciona uma margem de 17px à esquerda da seção */
-    font-size: 15px; /* Define o tamanho da fonte dentro da seção como 15px */
+    padding: 250px;  /* Adiciona um padding de 250px ao redor do conteúdo da sessão */
+    background-color: rgb(255, 255, 255); /* Cor de fundo da sessão */
+    margin-left: 17px; /* Adiciona uma margem de 17px à esquerda da sessão */
+    font-size: 15px; /* Define o tamanho da fonte dentro da sessão como 15px */
     align-items: center; /* Alinha os itens verticalmente ao centro (não se aplica aqui porque não está em um container flexível) */
-    display: flex; /* Usa flex para layout dos itens dentro da seção */
-    justify-content: center;
+    display: flex; /* Usa flex para layout dos itens dentro da sessão */
+    justify-content: center; /* justificando os itens ao centro */
 
 }
-
-
-
-
-
-
-
-
 
 
 footer i {
-    color: white;
-    font-size: 40px;
-    padding: 15px;
-    background-color: rgb(112, 112, 112);
-    border-radius: 10px;
+    color: white; /* Cor da letra do icone */
+    font-size: 40px; /* Define o tamanho da fonte dentro da sessão como 15px */
+    padding: 15px; /* preenchimento do icone do footer */
+    background-color: rgb(0, 0, 0); /* Cor de fundo do icone */ 
+    border-radius: 10px; /* arredondamento da borda da div */
 }
 
 footer i:hover {
-    background-color: #ff1500;
-    transition: 0.5s;
-    cursor: pointer;
-    align-items: center;
+    background-color: #ff1500; /* Cor de fundo do icone */
+    transition: 0.5s; /* tempo de transição ao colocar o mause sobre a Ancora */
+    cursor: pointer; /* adicionando o cursor ao colocar sobre o icone */
+    align-items: center;  /* Alinha os itens verticalmente ao centro */
 
 }
 
 
+
+.section-cotado02{
+    padding:250px; /* preenchimento da sessão */
+    background-color: rgba(255, 0, 0, 0.432); /*cor de fundo da sessão */
+}
+
+
+/* Div pai - dentro dele existe 3 caixas */
+.div-pai01 {
+    display: flex; /* Tornando os itens flex, deixando as caixas lado a lado */
+    justify-content: center; /* justificando os itens ao centro */
+    margin-bottom: 20px; /* espaçamento das div */
+}
+
+/* Estilização das caixas (div filhos) */
+.div-pai01 div {
+    width: 200px; /* largura da caixa */
+    height: 300px; /* Altura da caixa*/
+    background-color: #ff000059; /* Cor de fundo da caixa */
+    margin-right: 30px; /* Espaçamento entre as caixas (DIV)*/
+    border-radius: 15px; /* arredondamento da borda da div */
+}
+
+.div-pai02 {
+    display: flex; /* Tornando os itens flex, deixando as caixas lado a lado */
+    justify-content: center; /* justificando os itens ao centro */
+   margin-bottom: 20px; /* espaçamento das div */
+}
+
+.div-pai02 div {
+    width: 200px; /* largura da caixa */
+    height: 300px; /* Altura da caixa*/
+    background-color: #000000; /* Cor de fundo da caixa */
+    margin-right: 30px; /* Espaçamento entre as caixas (DIV)*/
+    border-radius: 15px;  /* arredondamento da borda */
+}
+
+
+
+
+.div-pai01 .Div-filho01 {
+    background-image: url(imagem/Div-filho-01.png); /* Imagem de fundo da div */
+    background-repeat: no-repeat; /* Impede que a imagem de fundo se repita */
+    background-size: cover; /* Faz com que a imagem de fundo cubra toda a área da div */
+    background-position: center; /* Centraliza a imagem de fundo na div */
+}
+.div-pai01 .Div-filho01:hover {
+    width: 215px; /* Define a largura da imagem dentro da sessão  */
+    height: 315px; /* Define a altura da imagem dentro da sessão  */
+    transition: 1.1s; /* tempo de transição ao colocar o mause sobre a Ancora */
+    cursor: pointer; /* adicionando o cursor ao colocar sobre o icone */
+}
+
+
+
+
+.div-pai01 .Div-filho02 {
+    background-image: url(imagem/Div-filho-02.jpg); /* Imagem de fundo da div */
+    background-repeat: no-repeat; /* Impede que a imagem de fundo se repita */
+    background-size: cover; /* Faz com que a imagem de fundo cubra toda a área da div */
+    background-position: center; /* Centraliza a imagem de fundo na div */
+}
+
+.div-pai01 .Div-filho02:hover {
+    width: 215px; /* Define a largura da imagem dentro da sessão  */
+    height: 315px; /* Define a altura da imagem dentro da sessão  */
+    transition: 1.1s; /* tempo de transição ao colocar o mause sobre a Ancora */
+    cursor: pointer; /* adicionando o cursor ao colocar sobre o icone */
+   }
+
+
+
+
+.div-pai01 .Div-filho03 {
+    background-image: url(imagem/Div-filho-03.jpg); /* Imagem de fundo da div */
+    background-repeat: no-repeat; /* Impede que a imagem de fundo se repita */
+    background-size: cover; /* Faz com que a imagem de fundo cubra toda a área da div */
+    background-position: center; /* Centraliza a imagem de fundo na div */
+}
+.div-pai01 .Div-filho03:hover {
+    width: 215px; /* Define a largura da imagem dentro da sessão  */
+    height: 315px; /* Define a altura da imagem dentro da sessão  */
+    transition: 1.1s; /* tempo de transição ao colocar o mause sobre a Ancora */
+    cursor: pointer; /* adicionando o cursor ao colocar sobre o icone */
+   }
+
+
+
+
+.div-pai02 .Div-filho04 {
+    background-image: url(imagem/Div-filho-04.jpg); /* Imagem de fundo da div */
+    background-repeat: no-repeat; /* Impede que a imagem de fundo se repita */
+    background-size: cover; /* Faz com que a imagem de fundo cubra toda a área da div */
+    background-position: center; /* Centraliza a imagem de fundo na div */
+}
+.div-pai02 .Div-filho04:hover {
+    width: 215px; /* Define a largura da imagem dentro da sessão  */
+    height: 315px; /* Define a altura da imagem dentro da sessão  */
+    transition: 1.1s; /* tempo de transição ao colocar o mause sobre a Ancora */
+    cursor: pointer; /* adicionando o cursor ao colocar sobre o icone */
+   }
+
+
+
+
+.div-pai02 .Div-filho05 {
+    background-image: url(imagem/Div-filho-05.png); /* Imagem de fundo da div */
+    background-repeat: no-repeat; /* Impede que a imagem de fundo se repita */
+    background-size: cover; /* Faz com que a imagem de fundo cubra toda a área da div */
+    background-position: center; /* Centraliza a imagem de fundo na div */
+}
+.div-pai02 .Div-filho05:hover {
+    width: 215px; /* Define a largura da imagem dentro da sessão  */
+    height: 315px; /* Define a altura da imagem dentro da sessão  */
+    transition: 1.1s; /* tempo de transição ao colocar o mause sobre a Ancora */
+    cursor: pointer; /* adicionando o cursor ao colocar sobre o icone */
+   }
+
+
+
+
+.div-pai02 .Div-filho06 {
+    background-image: url(imagem/Div-filho-06.png); /* Imagem de fundo da div */
+    background-repeat: no-repeat; /* Impede que a imagem de fundo se repita */
+    background-size: cover; /* Faz com que a imagem de fundo cubra toda a área da div */
+    background-position: center; /* Centraliza a imagem de fundo na div */
+}
+.div-pai02 .Div-filho06:hover {
+    width: 215px; /* Define a largura da imagem dentro da sessão  */
+    height: 315px; /* Define a altura da imagem dentro da sessão  */
+    transition: 1.1s; /* tempo de transição ao colocar o mause sobre a Ancora */
+    cursor: pointer; /* adicionando o cursor ao colocar sobre o icone */
+   } 
