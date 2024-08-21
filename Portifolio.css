@@ -237,10 +237,11 @@ footer nav ul li a:hover {
 
 .section-cotado02 {
     padding: 250px;  /* Adiciona um padding de 250px ao redor do conteúdo da sessão */
-    background-color: rgb(255, 255, 255); /* Cor de fundo da sessão*/
     margin-left: 17px; /* Adiciona uma margem de 17px à esquerda da seçsessãoão */
     font-size: 15px; /* Define o tamanho da fonte dentro da sessão como 15px */
     align-items: center; /* Alinha os itens verticalmente ao centro (não se aplica aqui porque não está em um container flexível) */
+    padding:250px; /* preenchimento da sessão */
+    background: linear-gradient( 80deg, #ff0015  10%, #a30101 40%,  #630008 80%); /*cor de fundo da sessão */
 }
    
 
@@ -275,10 +276,7 @@ footer i:hover {
 
 
 
-.section-cotado02{
-    padding:250px; /* preenchimento da sessão */
-    background-color: rgba(255, 0, 0, 0.432); /*cor de fundo da sessão */
-}
+
 
 
 /* Div pai - dentro dele existe 3 caixas */
