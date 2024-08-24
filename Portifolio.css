@@ -241,20 +241,7 @@ footer nav ul li a:hover {
     font-size: 15px; /* Define o tamanho da fonte dentro da sessão como 15px */
     align-items: center; /* Alinha os itens verticalmente ao centro (não se aplica aqui porque não está em um container flexível) */
     padding:250px; /* preenchimento da sessão */
-    background: linear-gradient( 80deg, #ff0015  10%, #a30101 40%,  #630008 80%); /*cor de fundo da sessão */
-}
-   
-
-.section-cotado03{
-    
-    padding: 250px;  /* Adiciona um padding de 250px ao redor do conteúdo da sessão */
-    background-color: rgb(255, 255, 255); /* Cor de fundo da sessão */
-    margin-left: 17px; /* Adiciona uma margem de 17px à esquerda da sessão */
-    font-size: 15px; /* Define o tamanho da fonte dentro da sessão como 15px */
-    align-items: center; /* Alinha os itens verticalmente ao centro (não se aplica aqui porque não está em um container flexível) */
-    display: flex; /* Usa flex para layout dos itens dentro da sessão */
-    justify-content: center; /* justificando os itens ao centro */
-
+    background: linear-gradient( 80deg, #ff0015  10%, #e47f87 100%); /*cor de fundo da sessão */
 }
 
 
@@ -405,3 +392,47 @@ footer i:hover {
     transition: 1.1s; /* tempo de transição ao colocar o mause sobre a Ancora */
     cursor: pointer; /* adicionando o cursor ao colocar sobre o icone */
    } 
+
+
+   .section-cotado03{
+    
+    padding: 100px;  /* Adiciona um padding de 250px ao redor do conteúdo da sessão */
+    background: linear-gradient( 80deg, #eff169  10%, #585858 80%); /*cor de fundo da sessão */
+    font-size: 15px; /* Define o tamanho da fonte dentro da sessão como 15px */
+    display: flex; /* Usa flex para layout dos itens dentro da sessão */
+    justify-content: center; /* justificando os itens ao centro */
+}
+
+   .div-iframe {
+    border-radius: 20px;
+   }
+
+   .div-tema h2{
+     color: rgb(0, 0, 0);
+     margin: 30px;
+     font-size: 20px;
+     font-weight: 400;
+   }
+   
+   .div-tema p{
+     color: white;
+     margin: 30px;
+     font-size: 20px;
+     font-weight: 400;
+   }
+
+   .rodape{
+    padding: 100px; /* tamanho/preenchimento do rodape*/
+    background-color: black; /* cor de fundo do rodape*/
+    display: flex; /* tornando a sessao flex e deixando os itens lado a lado */
+    justify-content: center; /* justificantiva do conteudo ao centro*/
+    font-weight: bold; /* peso da letra */
+    width: 100%; /* Define a largura da footer */
+    height: 100px; /* Define a altura da footer */
+   }
+
+   .div-img{
+    width: 80px; /* Define a largura da imagem do logo como 80px */
+
+   }
+
