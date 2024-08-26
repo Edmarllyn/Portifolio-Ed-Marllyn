@@ -246,6 +246,37 @@ footer nav ul li a:hover {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* tela de contato*/
 
 
@@ -280,10 +311,6 @@ footer nav ul li a:hover {
     padding:250px; /* preenchimento da sessão */
     background: linear-gradient( 80deg, #ff0015  10%, #e47f87 100%); /*cor de fundo da sessão */
 }
-
-
-
-
 
 
 
@@ -485,8 +512,7 @@ footer nav ul li a:hover {
 
  .div-icon a i:hover {
     background-color: #ff1500; /* Cor de fundo do icone */
-    transition: 0.5s; /* tempo de transição ao colocar o mause sobre a Ancora */
-    cursor: pointer; /* adicionando o cursor ao colocar sobre o icone */
-    align-items: center;  /* Alinha os itens verticalmente ao centro */
+    transition: 0.5s; /* Tempo de transição ao colocar o mause sobre a Ancora */
+    cursor: pointer; /* Adicionando o cursor ao colocar sobre o icone */
+    align-items: center;  /* Alinha os itens verticalmente ao centro  */ 
 }
-
