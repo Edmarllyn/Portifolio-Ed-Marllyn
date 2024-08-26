@@ -201,7 +201,7 @@ footer nav ul li a:hover {
     transform: scale(1.10); /* Aumenta o tamanho dos links em 10% quando o mouse passa sobre eles */
 }
 .rodape-img img{
-    width: 90px; /* Define a largura da imagem do logo como 90px */
+    width: 120px; /* Define a largura da imagem do logo como 120px */
    }
 
 .rodape-img .linha {
@@ -238,7 +238,7 @@ footer nav ul li a:hover {
     transition: 0.5s; /* tempo de transição ao colocar o mause sobre a Ancora */
     cursor: pointer; /* adicionando o cursor ao colocar sobre o icone */
     align-items: center;  /* Alinha os itens verticalmente ao centro */
-
+ }
 
 
 
@@ -451,7 +451,7 @@ footer nav ul li a:hover {
    }
 
    .div-line img{
-    width: 90px; /* Define a largura da imagem do logo como 90px */
+    width: 120px; /* Define a largura da imagem do logo como 120px */
    }
 
    .div-line .line {
@@ -489,3 +489,4 @@ footer nav ul li a:hover {
     cursor: pointer; /* adicionando o cursor ao colocar sobre o icone */
     align-items: center;  /* Alinha os itens verticalmente ao centro */
 }
+
