@@ -288,7 +288,7 @@ footer nav ul li a:hover {
 
 .section-cotado01 {
     background-image: url(imagem/tela\ 2.jpg) ; /* imagem de fundo da sessão */
-    padding: 250px; /* Adiciona um padding de 250px ao redor do conteúdo da sessão */
+    padding: 200px; /* Adiciona um padding de 250px ao redor do conteúdo da sessão */
     background-repeat: no-repeat; /* Impede que a imagem de fundo se repita */
     background-size: cover; /* Faz com que a imagem de fundo cubra toda a área da sessão */
     background-position: bottom ; /* Centraliza a imagem de fundo na sessão */
@@ -316,6 +316,7 @@ footer nav ul li a:hover {
     align-items: center; /* Alinha os itens verticalmente ao centro (não se aplica aqui porque não está em um container flexível) */
     padding:250px; /* preenchimento da sessão */
     background: linear-gradient( 80deg, #ff0015  10%, #e47f87 100%); /*cor de fundo da sessão */
+    background-size: cover; /* Faz com que a imagem de fundo cubra toda a área da sessão */
 }
 
 
@@ -326,6 +327,7 @@ footer nav ul li a:hover {
     justify-content: center; /* justificando os itens ao centro */
     margin-bottom: 20px; /* espaçamento das div */
 }
+
 
 /* Estilização das caixas (div filhos) */
 .div-pai01 div {
