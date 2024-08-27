@@ -58,6 +58,12 @@ header nav ul li a:hover {
     transition:  0.5s; /* tempo de transição ao colocar o mause sobre a Ancora */
 }
 
+#produtos {
+
+}
+
+
+
 .section00 {
     background-image: url(imagem/Logo\ Ed\ Marllyn.png); /* habilitamos uma imagem de fundo para a sessão*/
     padding: 250px;  /* tamanho/preenchimento da sessão*/
@@ -515,4 +521,8 @@ footer nav ul li a:hover {
     transition: 0.5s; /* Tempo de transição ao colocar o mause sobre a Ancora */
     cursor: pointer; /* Adicionando o cursor ao colocar sobre o icone */
     align-items: center;  /* Alinha os itens verticalmente ao centro  */ 
+}
+
+html{
+scroll-behavior: smooth;   /*  */
 }
